@@ -10,7 +10,7 @@ Time spent: **~15 hours** (building, debugging, styling, and deployment)
 
 ---
 
-## Required Features ✅
+## Required Features
 
 The following **required** functionality is completed:
 
@@ -26,7 +26,7 @@ The following **required** functionality is completed:
 
 ---
 
-## Optional Features ✨
+## Optional Features
 
 The following **optional** features are implemented:
 
@@ -36,7 +36,7 @@ The following **optional** features are implemented:
 
 ---
 
-## Additional Features 🚀
+## Additional Features
 
 - [x] Added a navigation bar for quick access
 - [x] Error handling for API failures
@@ -45,18 +45,18 @@ The following **optional** features are implemented:
 
 ---
 
-## Video Walkthrough 🎥
+## Video Walkthrough 
 
 Here's a walkthrough of implemented required features:
 
-👉🏿 *Add your GIF walkthrough here once recorded!*  
+ *Add your GIF walkthrough here once recorded!*  
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with: **ScreenToGif** (Windows) / **Kap** (macOS)
 
 ---
 
-## Notes 📝
+## Notes 
 
 Some challenges I faced while building this app:
 - Setting up Supabase RLS policies correctly to allow API reads/writes
@@ -68,7 +68,7 @@ Overall, this project helped me strengthen my React CRUD + Supabase integration 
 
 ---
 
-## License 📜
+## License 
 
 Copyright [2025] [Sophonie Graham]
 

@@ -1,84 +1,102 @@
-# WEB103 Prework - *Creatorverse*
+# FinancePulse Dashboard
 
-Submitted by: **Sophonie Graham**
+Enterprise-grade financial analytics platform featuring real-time transaction tracking, monthly spending trends visualization, and comprehensive asset management.
 
-About this web app:  
-**Creatorverse is a React + Supabase CRUD web app where you can manage content creators.**  
-Users can add, view, edit, and delete creators, each with their own name, URL, description, and profile image.
+## Features
 
-Time spent: **~15 hours** (building, debugging, styling, and deployment)
+- **Transaction Ledger** - Three-column layout (Date, Description, Amount) with professional UI
+- **Monthly Spending Chart** - High-contrast bar chart visualization
+- **LocalStorage Persistence** - All transactions saved across browser sessions
+- **Mock Transactions** - Add, edit, and delete financial records
+- **Professional Design** - Navy and emerald green color palette with glassmorphism effects
+- **Mobile Responsive** - Fully optimized for all devices
+
+## Tech Stack
+
+- **React** - Frontend framework with hooks
+- **Vite** - Fast build tool and dev server
+- **Chart.js** - Data visualization library
+- **LocalStorage API** - Client-side data persistence
+- **CSS3** - Modern styling with glassmorphism
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/sophoniegraham/Creatorverse.git
+   cd Creatorverse
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Run the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser to `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## Features Overview
+
+### Transaction Management
+- Add new transactions with date, description, and amount
+- Automatic categorization (Income vs Expense)
+- Edit existing transactions
+- Delete transactions with confirmation
+- Real-time balance calculations
+
+### Data Visualization
+- Monthly spending trends bar chart
+- Color-coded amounts (green for income, red for expenses)
+- Responsive chart sizing
+- Clean, professional aesthetic
+
+### Data Persistence
+- All transactions stored in browser localStorage
+- Data persists across sessions
+- Automatic save on every change
+- Import/export functionality (planned)
+
+## Design System
+
+### Color Palette
+- **Primary Navy:** #0A192F
+- **Secondary Navy:** #112240
+- **Emerald Green:** #10B981
+- **Text Primary:** #CCD6F6
+- **Text Secondary:** #8892B0
+
+### Typography
+- **Font Family:** Inter
+- **Weights:** 300 (light), 400 (regular), 500 (medium), 600 (semibold), 700 (bold)
+
+## Contact
+
+**Developer:** Sophonie Graham  
+**Email:** sgraha04@gmail.com  
+**Location:** United States  
+**LinkedIn:** [Sophonie Graham](https://www.linkedin.com/in/sophonie-graham-b28705119/)  
+**GitHub:** [@sophoniegraham](https://github.com/sophoniegraham)
+
+## License
+
+This project is open source and available under the MIT License.
 
 ---
 
-## Required Features
-
-The following **required** functionality is completed:
-
-- [x] **A logical component structure in React is used to create the frontend of the app**
-- [x] **At least five content creators are displayed on the homepage of the app**
-- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
-- [x] **API calls use the async/await design pattern via fetch()**
-- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
-- [x] **Each content creator has their own unique URL**
-- [x] **The user can edit a content creator to change their name, url, or description**
-- [x] **The user can delete a content creator**
-- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
-
----
-
-## Optional Features
-
-The following **optional** features are implemented:
-
-- [x] Styled the app with modern CSS (custom theme in `index.css`)
-- [x] The content creator items are displayed as **cards** instead of a simple list
-- [x] An **image of each content creator** is shown on their profile card
-
----
-
-## Additional Features
-
-- [x] Added a navigation bar for quick access
-- [x] Error handling for API failures
-- [x] Placeholder images for creators without a profile picture
-- [x] Responsive design for mobile and desktop
-
----
-
-## Video Walkthrough 
-
-Here's a walkthrough of implemented required features:
-
- *Add your GIF walkthrough here once recorded!*  
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with: **ScreenToGif** (Windows) / **Kap** (macOS)
-
----
-
-## Notes 
-
-Some challenges I faced while building this app:
-- Setting up Supabase RLS policies correctly to allow API reads/writes
-- Fixing "failed to fetch" errors due to table name mismatches
-- Managing React Router routes for viewing and editing creators
-- Styling cards and layout to look clean and modern
-
-Overall, this project helped me strengthen my React CRUD + Supabase integration skills.
-
----
-
-## License 
-
-Copyright [2025] [Sophonie Graham]
-
-Licensed under the Apache License, Version 2.0 (the "License");  
-you may not use this file except in compliance with the License.  
-You may obtain a copy of the License at:
-
-> http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing,  
-software distributed under the License is distributed on an "AS IS" BASIS,  
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
-See the License for the specific language governing permissions and limitations under the License.
+Built with ❤️ using React and modern web technologies.
